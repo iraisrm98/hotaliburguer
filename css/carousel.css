@@ -1,0 +1,339 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  max-width: 1300px;
+  width:100%;
+  text-align:center;
+
+}
+
+.container0{
+  background-color: #000;
+  text-align: center;
+  float:left;
+  width:100%;
+}
+
+.imglg{
+	width: 319px;
+	height: 280px;
+	position: absolute;
+	float: left;
+	padding-left:20px;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  height:80px;
+
+  font-family:Absender;
+  font-size:20px;
+  color: #663530;
+}
+
+ul{
+  list-style: none;
+  width:auto;
+  height:50px;
+}
+
+li{
+  float:left;
+  width:160px;
+  height:50px;
+  background-color: #CD5434;
+  color: #663530;
+  overflow: hidden;
+  margin-top:0px;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  padding-top: 20px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 600px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  font-size: 50px;
+  font-family: Absender;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+      color: #663530;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+
+.testi{
+  font-family:Absender;
+  color: #663530;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.footcont{
+  background-color: #CD5434;
+  width: 100%;
+  height:290px;
+  max-height: 290px;
+}
+
+.footlog{
+  width: 250px;
+  padding: 1em;
+  float: left;
+}
+
+.footlin{
+  width: 230px;
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #FFF;
+  float: right;
+}
+
+.footadr{
+  width: 230px;
+  padding-right: 30px;
+  padding-top: 10px;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #FFF;
+  float: right;
+  margin-right: 100px;
+}
+
+.fttr{
+  background-color: #ff7a57;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.link{
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #FFF;
+  text-decoration: none;
+  margin-right: 100px;
+}
+
+.footanc {
+	color: #FFF;
+	vertical-align: top;
+	float: right;
+	width: 230px;
+	padding: 5px;
+	text-decoration:none;
+}
+
+#foot .footanc .lin{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bolder;
+	text-align:left;
+}
+
+#foot .footanc .nv{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	font-weight:bolder;
+	text-align:left;
+}
+
+
+.abt{
+	width:100%;
+	height:50px;
+	background-color:#FFF;
+	font-family:absender;
+	font-size:36px;
+	font-weight:bolder;
+	padding:10px;
+	color: #663530;
+}
+
+
+.abtim{
+	margin-top:30px;
+}
+
+.abttxt{
+	width: 70%;
+	font-family: Verdana, Geneva, sans-serif;
+	position: relative;
+	text-align: justify;
+	padding: 25px;
+	margin-top: 15px;
+}
+
+.men{
+	height:1300px;
+	background-color:#FFF;
+}
+
+
+/*
+section,
+.container,
+.container-fluid {
+  position: relative;
+  word-wrap: break-word; }
+
+a.mbr-iconfont:hover {
+  text-decoration: none; }
+
+.article .lead p, .article .lead ul, .article .lead ol, .article .lead pre, .article .lead blockquote {
+  margin-bottom: 0; }
+
+a {
+  font-style: normal;
+  font-weight: 400;
+  cursor: pointer; }
+  a, a:hover {
+    text-decoration: none; }
+
+figure {
+  margin-bottom: 0; }
+
+
+b, strong {
+  font-weight: bold; }
+
+blockquote {
+  padding: 10px 0 10px 20px;
+  position: relative;
+  border-left: 2px solid;
+  border-color: #ff3366; }
+
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+  transition-delay: 9999s;
+  transition-property: background-color, color; }
+
+textarea[type="hidden"] {
+  display: none; }
+
+  */
